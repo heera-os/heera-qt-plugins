@@ -1,0 +1,1 @@
+heera-qt-plugins
