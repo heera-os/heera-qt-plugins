@@ -23,8 +23,8 @@ static const QByteArray s_systemFontName = QByteArrayLiteral("Font");
 static const QByteArray s_systemFixedFontName = QByteArrayLiteral("FixedFont");
 static const QByteArray s_systemPointFontSize = QByteArrayLiteral("FontSize");
 static const QByteArray s_darkModeName = QByteArrayLiteral("DarkMode");
-static const QByteArray s_lightIconName = QByteArrayLiteral("Crule");
-static const QByteArray s_darkIconName = QByteArrayLiteral("Crule-dark");
+static const QByteArray s_lightIconName = QByteArrayLiteral("heera");
+static const QByteArray s_darkIconName = QByteArrayLiteral("heera");
 
 HintsSettings::HintsSettings(QObject *parent)
     : QObject(parent),
@@ -79,7 +79,7 @@ QString HintsSettings::systemFixedFont() const
 
 qreal HintsSettings::systemFontPointSize() const
 {
-    return m_settings->value(s_systemPointFontSize, 10.5).toDouble();
+    return m_settings->value(s_systemPointFontSize, 11).toDouble();
 }
 
 bool HintsSettings::darkMode()

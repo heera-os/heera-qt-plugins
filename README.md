@@ -1,6 +1,6 @@
 # Heera Qt Plugins
 
-Unified Qt application style of HeeraOS. cloned from https://github.com/cyberos/cyber-qt-plugins
+Unified Qt application style of HeeraOS.
 
 ## Dependencies
 
