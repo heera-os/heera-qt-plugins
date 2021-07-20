@@ -23,8 +23,8 @@ static const QByteArray s_systemFontName = QByteArrayLiteral("Font");
 static const QByteArray s_systemFixedFontName = QByteArrayLiteral("FixedFont");
 static const QByteArray s_systemPointFontSize = QByteArrayLiteral("FontSize");
 static const QByteArray s_darkModeName = QByteArrayLiteral("DarkMode");
-static const QByteArray s_lightIconName = QByteArrayLiteral("heera");
-static const QByteArray s_darkIconName = QByteArrayLiteral("heera");
+static const QByteArray s_lightIconName = QByteArrayLiteral("heera-light");
+static const QByteArray s_darkIconName = QByteArrayLiteral("heera-dark");
 
 HintsSettings::HintsSettings(QObject *parent)
     : QObject(parent),
@@ -32,7 +32,7 @@ HintsSettings::HintsSettings(QObject *parent)
 {
     m_hints[QPlatformTheme::SystemIconThemeName] = darkMode() ? s_darkIconName : s_lightIconName;
     m_hints[QPlatformTheme::StyleNames] = "heera";
-    m_hints[QPlatformTheme::SystemIconFallbackThemeName] = QStringLiteral("Adwaita");
+    m_hints[QPlatformTheme::SystemIconFallbackThemeName] = QStringLiteral("Breez");
     m_hints[QPlatformTheme::IconThemeSearchPaths] = xdgIconThemePaths();
     m_hints[QPlatformTheme::UseFullScreenForPopupMenu] = false;
 
