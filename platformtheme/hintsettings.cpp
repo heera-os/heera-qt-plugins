@@ -23,8 +23,8 @@ static const QByteArray s_systemFontName = QByteArrayLiteral("Font");
 static const QByteArray s_systemFixedFontName = QByteArrayLiteral("FixedFont");
 static const QByteArray s_systemPointFontSize = QByteArrayLiteral("FontSize");
 static const QByteArray s_darkModeName = QByteArrayLiteral("DarkMode");
-static const QByteArray s_lightIconName = QByteArrayLiteral("heera-light");
-static const QByteArray s_darkIconName = QByteArrayLiteral("heera-dark");
+static const QByteArray s_lightIconName = QByteArrayLiteral("heera-icons");
+static const QByteArray s_darkIconName = QByteArrayLiteral("heera-icons");
 
 HintsSettings::HintsSettings(QObject *parent)
     : QObject(parent),
